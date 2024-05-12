@@ -2,4 +2,4 @@
 set -e
 black .
 flake8 .
-pylint dagster_*
+pylint --jobs 0 $(find . -name '*.py')
