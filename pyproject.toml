@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "dagster-broken-pieces"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "dagster_broken_pieces" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dagster = "^1.6.0"
+pandas = "^2.1.4"
+
+
+[tool.poetry.group.dev.dependencies]
+dagster-webserver = "^1.6.0"
+black = "^23.12.1"
+pylint = "^3.0.3"
+flake8 = "^7.0.0"
+pytest = "^7.4.4"
+
+[tool.dagster]
+module_name = "dagster_broken_pieces"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
