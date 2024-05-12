@@ -12,6 +12,7 @@ packages = [
 python = "^3.9"
 dagster = "^1.6.0"
 pandas = "^2.1.4"
+reference-parser = {git = "https://github.com/natureframework/reference-parser.git"}
 
 
 [tool.poetry.group.dev.dependencies]
