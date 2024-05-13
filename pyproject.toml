@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "dagster-broken-pieces"
+name = "dagster-pieces"
 version = "0.1.0"
 description = ""
 authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "dagster_broken_pieces" },
+    { include = "dagster_pieces" },
 ]
 
 [tool.poetry.dependencies]
@@ -23,7 +23,7 @@ flake8 = "^7.0.0"
 pytest = "^7.4.4"
 
 [tool.dagster]
-module_name = "dagster_broken_pieces"
+module_name = "dagster_pieces"
 
 [build-system]
 requires = ["poetry-core"]

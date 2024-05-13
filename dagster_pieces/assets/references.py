@@ -1,14 +1,15 @@
-from pandas import Series, read_csv
+from pandas import DataFrame, read_csv
 from dagster import asset
+from dagster_pieces.constants import PREFIX
 
 
-@asset
-def references() -> Series:
+@asset(key_prefix=PREFIX)
+def references() -> DataFrame:
     return read_csv(
         "https://raw.githubusercontent.com"
         "/natureframework"
         "/broken-pieces"
         "/main"
         "/references.txt",
-        header=None,
-    )[0]
+        names=["reference"],
+    )
