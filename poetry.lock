@@ -1189,8 +1189,8 @@ files = [
 [package.dependencies]
 numpy = [
     {version = ">=1.22.4", markers = "python_version < \"3.11\""},
-    {version = ">=1.23.2", markers = "python_version == \"3.11\""},
     {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
+    {version = ">=1.23.2", markers = "python_version == \"3.11\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -1586,8 +1586,8 @@ astroid = ">=3.1.0,<=3.2.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
     {version = ">=0.2", markers = "python_version < \"3.11\""},
-    {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
     {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
+    {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -1772,7 +1772,7 @@ pydantic = "^2.7.1"
 type = "git"
 url = "https://github.com/natureframework/reference-parser.git"
 reference = "HEAD"
-resolved_reference = "9aa7646cdc3342b6e195af09e755b80cd6bbc3f2"
+resolved_reference = "1a38e877f07d2d8756dd3f898fb815063fc35359"
 
 [[package]]
 name = "regex"
