@@ -1772,7 +1772,7 @@ pydantic = "^2.7.1"
 type = "git"
 url = "https://github.com/natureframework/reference-parser.git"
 reference = "HEAD"
-resolved_reference = "1a38e877f07d2d8756dd3f898fb815063fc35359"
+resolved_reference = "d235050e336e11c371e869ba8cca28c9ac9199a2"
 
 [[package]]
 name = "regex"
