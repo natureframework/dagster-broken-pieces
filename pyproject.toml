@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dagster-pieces"
-version = "0.1.0"
+version = "0.2.0"
 description = "Broken pieces assets"
 authors = ["Ivan Dustin Bilon <ivan22.dust@gmail.com>"]
 readme = "README.md"

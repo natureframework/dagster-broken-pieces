@@ -7,7 +7,7 @@ from dagster_pieces.select import select
 
 
 @asset(partitions_def=references)
-def pieces(context: AssetExecutionContext, gospels: Dict[str, DataFrame]) -> DataFrame:
+def piece(context: AssetExecutionContext, gospels: Dict[str, DataFrame]) -> DataFrame:
     reference = parse(context.partition_key)
     book = gospels[reference.book]
     verses = select(book, reference)
